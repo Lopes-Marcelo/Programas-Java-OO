@@ -1,9 +1,14 @@
 public class Caneta {
+    
+    // Atributos
+    
     public String modelo;
     public String cor;
     private float ponta;
     protected int carga;
     private Boolean tampada;
+    
+    // Métodos Públicos
     
     public void status () {
         System.out.println("Modelo: " + this.modelo);
