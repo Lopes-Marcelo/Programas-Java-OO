@@ -18,6 +18,7 @@ public class Principal {
         UFC01.marcarLuta(l[0], l[1]);
         UFC01.lutar();
         l[0].status();
+        l[1].status();
         
         
         /*l[3].empatarLuta();
