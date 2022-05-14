@@ -13,11 +13,10 @@ public abstract class Animal {
         this.peso = peso;
         this.idade = idade;
         this.membros = membros;
-
     }
 
     public Animal(){
-        
+        //Não necessário pois o jvm cria sozinho!
     }
 
     //Métodos Abstratos
